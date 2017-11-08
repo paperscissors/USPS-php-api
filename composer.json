@@ -1,22 +1,14 @@
 {
-  "name":        "vinceg/usps-php-api",
+  "name":        "paperscissors/usps-php-api",
   "type":        "library",
-  "description": "PHP wrapper for USPS Web Tools API",
+  "description": "Fork of PHP wrapper for USPS Web Tools API with quick issue fixes; originally by Vincent Gabriel et al.",
   "keywords":    ["usps", "api"],
   "license":     "MIT",
   "authors":     [
     {
-      "name":     "Vincent Gabriel",
-      "homepage": "http://vadimg.com",
+      "name":     "Tom Filepp",
+      "homepage": "https://paperscissorsandglue.com",
       "role":     "Developer"
-    },
-    {
-      "name": "Alexander Reiff",
-      "role": "Developer"
-    },
-    {
-      "name": "Ryan Hayle",
-      "role": "Developer"
     }
   ],
   "require":     {

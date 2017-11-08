@@ -211,7 +211,7 @@ abstract class USPSBase
             // Find the error number
             $errorInfo = $this->getValueByKey($arrayResponse, 'Error');
 
-            if ($errorInfo) {
+            if (isset($errorInfo['Number'], $errorInfo['Description'])) {
                 $this->setErrorCode($errorInfo['Number']);
                 $this->setErrorMessage($errorInfo['Description']);
             }
